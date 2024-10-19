@@ -1,0 +1,290 @@
+
+.logo {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+nav{
+    background: black; 
+    width: 100%;
+    height: 150px;
+}
+ul{
+    float: right;
+    margin-top: -50px; 
+}
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none; 
+    color: whitesmoke;
+    font-size: 15px; 
+    font-family:serif;
+    padding: 5px 20px; 
+}
+
+ul li.active a{
+    border: 1px solid white;
+    padding: 20px 20px;
+}
+
+ul li a:hover{
+    border: 1px solid white;
+    padding: 20px 20px;
+}
+
+nav{
+    background-color: black;
+}
+
+header{
+    background: #DBDBF4;
+    height: 1000px; 
+}
+
+h1{
+    font-size: 20px;
+    font-family: cursive; 
+    margin-left: 190px;
+    color: aliceblue; 
+    margin-top: -75px;
+    
+}
+
+h2{
+    font-size:10px;
+    color: aliceblue;
+    margin-left: 187px;
+    margin-top: -10px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #555; 
+    font-family: fantasy; 
+}
+
+h3::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px; 
+}
+
+.Design{
+    width: 100%; 
+    height: 60px; 
+    background-color: black; 
+    margin-top: 2000px; 
+}
+
+h30{
+    color: white; 
+    font-size: 20px;
+    margin-left: 600px; 
+    margin-top: 30px; 
+}
+
+h5{
+    text-align: center; 
+}
+
+h4{
+    text-align: center; 
+}
+
+.taipo{
+    width: 650px;
+    height: 700px;
+    float: left; 
+    margin-left: 20px;
+    background: #E6E6F2; 
+}
+
+.fanling{
+    width: 650px;
+    height: 700px;
+    float: right;
+    margin-right: 20px;
+    background-color: #E6E6F2; 
+}
+
+.map{
+    margin-left: 25px; 
+}
+
+.number4{
+    margin-left: 5px;
+}
+
+footer{
+    background-color: #EAEAEE;
+    height: 450px;
+    margin-top: 355px;
+}
+
+.design{
+    height: 50px; 
+    background: black; 
+    margin-top:-30px;
+}
+
+h30{
+    color: white; 
+    font-size: 15px; 
+    margin-left: 620px; 
+}
+footer ul{
+    margin-left: 0px; 
+    margin-top: -70px; 
+}
+
+footer ul li {
+    display: block; 
+    padding: 10px 20px;
+    text-align: center; 
+}
+
+footer ul li a{
+    text-decoration: none; 
+    color: #373839;
+    font-size: 15px; 
+    font-family: monospace; 
+    padding: 5px 20px; 
+}
+
+.No-boarder{
+    border: 3px solid transparent !important;  
+}
+
+
+h31{
+    margin-left: 190px;
+    margin-top: 2000px;
+    font-size: 25px;
+    color: #555; 
+    font-family: cursive; 
+}
+
+h31::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 20px 175px; 
+}
+
+.about{
+    height: 0px;
+    width: 400px;
+    margin-top: -350px;
+    margin-left: 500px;
+    text-align: center; 
+    font-size: 15px; 
+    padding-top: 100px;
+    
+}
+
+.information{
+    width: 380px;
+    padding-top: 50px;
+    float: left;
+}
+
+h32{
+    color: #000000; 
+}
+
+.logo2{
+    height: 100px;
+    width: 150px;
+}
+
+.contact{
+    margin-left: 1050px;
+    margin-top: -50px;
+    height: 400px; 
+    width: 400px; 
+}
+
+h33{
+    margin-left: 80px;
+    font-size: 25px; 
+    color: #555; 
+    font-family: cursive; 
+}
+
+h33::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 130px;
+    margin: 20px 70px; 
+}
+
+.number{
+   text-decoration: none; 
+   font-family: fantasy; 
+   margin-left: 100px;
+    margin-top: -100px;
+    font-size: 17px;
+}
+
+.spacing{
+    margin-top: -30px;
+}
+
+.whatsapp{
+    margin-top: 20px;
+}
+
+h34{
+    margin-left: 70px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.number2{
+    text-decoration: none;
+    font-family: fantasy;
+    color: purple; 
+}
+
+.toggle{
+     text-align: right;
+    margin-right: 10px; 
+    display: none; 
+}
+
+@media (max-width:1000px){
+
+    .toggle{
+        display: block;
+    }
+    ul{
+        width: 100%; 
+        display: none; 
+    }
+    ul li{
+        text-align: right;
+        display: block;
+        padding: 30px 30px; 
+    }
+    .active1{
+        display: block; 
+    }
+
+    }
+
+
+
+
+

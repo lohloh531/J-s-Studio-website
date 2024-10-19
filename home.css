@@ -1,0 +1,178 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 17%;
+}
+
+body{
+    width: 100%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul{
+    float: right; 
+    margin-top: -2.8%;
+}
+
+ul li a{
+    text-decoration: none; 
+    font-size: 15px; 
+    font-family: serif; 
+    padding: 5px 25px; 
+    color: whitesmoke; 
+}
+
+ul li.active a{
+    border: 1px solid white; 
+    padding: 20px 20px;
+}
+
+ul li a:hover{
+    border: 3px solid white; 
+    padding: 20px 20px;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(
+    https://i.imgur.com/UnRDTqA.jpg);
+    background-size: cover; 
+    height: 100vh;
+    background-position: center;
+    
+}
+
+.logo{
+    width: 300px;
+    height: 100px;
+}
+
+
+.button{
+    padding: 20px 30px;
+    color: purple; 
+    background-color: #E0C9EC;
+    text-decoration: none; 
+    font-size: 17px;
+    font-family: cursive;
+    margin-left: 670px; 
+    margin-top: 500px; 
+    border: 3px solid #C990E8;
+    
+}
+
+.welcome{
+    margin-top: 120px; 
+}
+
+h1
+{
+    font-size: 20px;
+    font-family: cursive; 
+    margin-left: 170px;
+    color: aliceblue; 
+    margin-top: -75px;
+}
+
+h2{
+    font-size:10px;
+    color: aliceblue;
+    margin-left: 170px;
+    margin-top: -10px;
+}
+
+h20{
+    margin-left: 500px;
+    font-family: cursive; 
+    font-size: 100px; 
+    color: white; 
+    margin-top: 500px; 
+     
+}
+
+h21{
+    margin-left: 580px; 
+    font-family: cursive; 
+    color: white; 
+    font-size: 80px; 
+    font-style: italic; 
+    
+}
+
+.toggle{
+     text-align: right;
+    margin-right: 10px; 
+    display: none; 
+}
+
+@media (max-width:1000px){
+    
+    body{
+        width: 100%; 
+    }
+
+    .toggle{
+        display: block;
+    }
+    ul{
+        width: 100%; 
+        display: none; 
+    }
+    ul li{
+        text-align: right;
+        display: block;
+        padding: 30px 30px; 
+    }
+    .active1{
+        display: block; 
+    }
+    
+    .logo{
+        margin-top: -30px; 
+    }
+    
+    h20{
+    font-size:10vw;
+    width: 100%;
+    margin: auto; 
+    }
+    
+    h21{
+    font-size: 5vw; 
+    margin: auto;
+    
+    }
+    
+    .row{
+        width: 100%; 
+    }
+    
+    .welcome{
+        width: 100%;
+        padding: 0px 50px;
+    }
+    
+    .button{
+        margin:auto; 
+        font-size: 3vw;
+    }
+    
+    header{
+        width: auto;
+    }
+
+    }
+
+
+
+
+
+
